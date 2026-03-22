@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Abrahamic Faiths — A Complete History</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+
+  <div class="content-wrapper">
+
+    <!-- Hero -->
+    <div style="text-align:center; padding: 60px 0 20px;">
+      <div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 3px; color: var(--blue); margin-bottom: 16px;">An Interactive History</div>
+      <h1 style="font-size: 2.8rem; margin-bottom: 16px; line-height: 1.15;">Judaism, Christianity & Islam</h1>
+      <p style="font-size: 1.15rem; color: var(--text-muted); max-width: 650px; margin: 0 auto; line-height: 1.8;">
+        From Abraham to the present day — 4,000 years of shared origins, divergent paths, golden ages, holy wars, and the conflicts that shape our world today.
+      </p>
+
+      <!-- Religion Legend -->
+      <div style="display: flex; justify-content: center; gap: 24px; margin-top: 28px; flex-wrap: wrap;">
+        <span class="badge judaism" style="font-size: 0.8rem; padding: 6px 16px;">Judaism</span>
+        <span class="badge christianity" style="font-size: 0.8rem; padding: 6px 16px;">Christianity</span>
+        <span class="badge islam" style="font-size: 0.8rem; padding: 6px 16px;">Islam</span>
+        <span class="badge all" style="font-size: 0.8rem; padding: 6px 16px;">Shared / Secular</span>
+      </div>
+    </div>
+
+    <!-- Master Timeline — Leaf/Zigzag Layout -->
+    <div style="margin-top: 40px;">
+      <h2 style="text-align: center; margin-bottom: 8px;">Timeline of Eras</h2>
+      <p style="text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 32px;">Click any era to begin reading. Progress is tracked when you reach the quiz.</p>
+
+      <div class="leaf-timeline">
+        <div class="leaf-timeline-inner">
+          <div class="leaf-line"></div>
+
+          <a class="leaf-node up" data-chapter="1" href="chapters/01-ancient-origins.html">
+            <div class="leaf-content">
+              <span class="leaf-date">2000-600 BCE</span>
+              <h3>Ancient Origins</h3>
+              <p>Abraham, Moses, First Temple</p>
+            </div>
+            <div class="leaf-dot"></div>
+          </a>
+
+          <a class="leaf-node down" data-chapter="2" href="chapters/02-classical-antiquity.html">
+            <div class="leaf-dot"></div>
+            <div class="leaf-content">
+              <span class="leaf-date">600 BCE-100 CE</span>
+              <h3>Classical Antiquity</h3>
+              <p>Exile, Jesus, Second Temple</p>
+            </div>
+          </a>
+
+          <a class="leaf-node up" data-chapter="3" href="chapters/03-early-church-rabbis.html">
+            <div class="leaf-content">
+              <span class="leaf-date">100-600 CE</span>
+              <h3>Early Church & Rabbis</h3>
+              <p>Paul, Nicaea, Talmud</p>
+            </div>
+            <div class="leaf-dot"></div>
+          </a>
+
+          <a class="leaf-node down" data-chapter="4" href="chapters/04-rise-of-islam.html">
+            <div class="leaf-dot"></div>
+            <div class="leaf-content">
+              <span class="leaf-date">600-750 CE</span>
+              <h3>Rise of Islam</h3>
+              <p>Muhammad, Caliphates, Karbala</p>
+            </div>
+          </a>
+
+          <a class="leaf-node up" data-chapter="5" href="chapters/05-medieval-world.html">
+            <div class="leaf-content">
+              <span class="leaf-date">750-1300 CE</span>
+              <h3>Medieval World</h3>
+              <p>Crusades, Saladin, Golden Age</p>
+            </div>
+            <div class="leaf-dot"></div>
+          </a>
+
+          <a class="leaf-node down" data-chapter="6" href="chapters/06-ottoman-reformation.html">
+            <div class="leaf-dot"></div>
+            <div class="leaf-content">
+              <span class="leaf-date">1300-1700</span>
+              <h3>Ottoman & Reformation</h3>
+              <p>Constantinople, Luther, 1492</p>
+            </div>
+          </a>
+
+          <a class="leaf-node up" data-chapter="7" href="chapters/07-enlightenment-nationalism.html">
+            <div class="leaf-content">
+              <span class="leaf-date">1700-1900</span>
+              <h3>Enlightenment & Nationalism</h3>
+              <p>Emancipation, Zionism</p>
+            </div>
+            <div class="leaf-dot"></div>
+          </a>
+
+          <a class="leaf-node down" data-chapter="8" href="chapters/08-world-wars-israel.html">
+            <div class="leaf-dot"></div>
+            <div class="leaf-content">
+              <span class="leaf-date">1900-1950</span>
+              <h3>World Wars & Israel</h3>
+              <p>Balfour, Holocaust, 1948</p>
+            </div>
+          </a>
+
+          <a class="leaf-node up" data-chapter="9" href="chapters/09-modern-conflicts.html">
+            <div class="leaf-content">
+              <span class="leaf-date">1950-2000</span>
+              <h3>Modern Conflicts</h3>
+              <p>Six-Day War, Oslo, Intifadas</p>
+            </div>
+            <div class="leaf-dot"></div>
+          </a>
+
+          <a class="leaf-node down" data-chapter="10" href="chapters/10-twenty-first-century.html">
+            <div class="leaf-dot"></div>
+            <div class="leaf-content">
+              <span class="leaf-date">2000-Present</span>
+              <h3>21st Century</h3>
+              <p>9/11, ISIS, Oct 7, Accords</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Chapter Cards Grid -->
+    <div class="chapter-grid">
+
+      <a class="chapter-card" data-chapter="1" href="chapters/01-ancient-origins.html">
+        <img class="chapter-card-img" src="images/ch01_sacrifice_isaac.jpg" alt="The Sacrifice of Isaac by Caravaggio">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 1</span>
+          <h3>Ancient Origins</h3>
+          <p>Abraham's covenant, Hagar & Zamzam, Moses and the Exodus, the Ten Commandments, King David, Solomon's Temple, and the shared patriarchs of three faiths.</p>
+          <span class="chapter-card-date">2000 - 600 BCE</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+      <a class="chapter-card" data-chapter="2" href="chapters/02-classical-antiquity.html">
+        <img class="chapter-card-img" src="images/ch02_second_temple.jpg" alt="Model of the Second Temple">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 2</span>
+          <h3>Classical Antiquity</h3>
+          <p>Babylonian Exile, the Second Temple, Maccabees and Hanukkah, Roman Judea, the life of Jesus, crucifixion, and how three faiths see him differently.</p>
+          <span class="chapter-card-date">600 BCE - 100 CE</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+      <a class="chapter-card" data-chapter="3" href="chapters/03-early-church-rabbis.html">
+        <img class="chapter-card-img" src="images/ch03_paul_conversion.jpg" alt="Fall of Rome">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 3</span>
+          <h3>Early Church & Rabbis</h3>
+          <p>Paul's missions, Temple destruction, Masada, Constantine, Council of Nicaea, the Talmud, and how Christianity became Rome's state religion.</p>
+          <span class="chapter-card-date">100 - 600 CE</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+      <a class="chapter-card" data-chapter="4" href="chapters/04-rise-of-islam.html">
+        <img class="chapter-card-img" src="images/ch04_kaaba.jpg" alt="The Kaaba in Mecca">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 4</span>
+          <h3>Rise of Islam</h3>
+          <p>Cave of Hira, the Hijra, Badr, Uhud, Khandaq, conquest of Mecca, the Rashidun Caliphs, Karbala, and the Sunni-Shia split.</p>
+          <span class="chapter-card-date">600 - 750 CE</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+      <a class="chapter-card" data-chapter="5" href="chapters/05-medieval-world.html">
+        <img class="chapter-card-img" src="images/ch05_jerusalem_siege.jpg" alt="Siege of Jerusalem during the First Crusade">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 5</span>
+          <h3>Medieval World</h3>
+          <p>The Abbasid Golden Age, all the Crusades, Saladin, Reconquista, Maimonides and Ibn Rushd, Mongol invasion, and interfaith intellectual exchange.</p>
+          <span class="chapter-card-date">750 - 1300 CE</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+      <a class="chapter-card" data-chapter="6" href="chapters/06-ottoman-reformation.html">
+        <img class="chapter-card-img" src="images/ch06_mehmed.jpg" alt="Mehmed II by Gentile Bellini">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 6</span>
+          <h3>Ottoman & Reformation</h3>
+          <p>Fall of Constantinople, Spanish Inquisition, expulsion of 1492, Protestant Reformation, Suleiman the Magnificent, and the Thirty Years War.</p>
+          <span class="chapter-card-date">1300 - 1700</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+      <a class="chapter-card" data-chapter="7" href="chapters/07-enlightenment-nationalism.html">
+        <img class="chapter-card-img" src="images/ch07_herzl.jpg" alt="19th century nationalism">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 7</span>
+          <h3>Enlightenment & Nationalism</h3>
+          <p>Jewish Emancipation, Wahhabism, Napoleon's campaigns, the Dreyfus Affair, birth of Zionism, and the decline of the Ottoman Empire.</p>
+          <span class="chapter-card-date">1700 - 1900</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+      <a class="chapter-card" data-chapter="8" href="chapters/08-world-wars-israel.html">
+        <img class="chapter-card-img" src="images/ch08_israel_declaration.jpg" alt="Declaration of the State of Israel, 1948">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 8</span>
+          <h3>World Wars & Birth of Israel</h3>
+          <p>Sykes-Picot, Balfour Declaration, the British Mandate, the Holocaust, UN Partition Plan, and the birth of Israel and the Nakba.</p>
+          <span class="chapter-card-date">1900 - 1950</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+      <a class="chapter-card" data-chapter="9" href="chapters/09-modern-conflicts.html">
+        <img class="chapter-card-img" src="images/ch09_oslo.jpg" alt="Oslo Accords signing, 1993">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 9</span>
+          <h3>Modern Conflicts</h3>
+          <p>Six-Day War, Yom Kippur War, Camp David, Iranian Revolution, Lebanon, both Intifadas, Oslo Accords, and the collapse of the peace process.</p>
+          <span class="chapter-card-date">1950 - 2000</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+      <a class="chapter-card" data-chapter="10" href="chapters/10-twenty-first-century.html">
+        <img class="chapter-card-img" src="images/ch10_abraham_accords.jpg" alt="Abraham Accords signing, 2020">
+        <div class="chapter-card-body">
+          <span class="chapter-card-number">Chapter 10</span>
+          <h3>21st Century</h3>
+          <p>9/11, War on Terror, Arab Spring, rise of ISIS, Abraham Accords, October 7, the Gaza War, and the search for resolution.</p>
+          <span class="chapter-card-date">2000 - Present</span>
+          <span class="chapter-card-status"></span>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- How to Use -->
+    <div class="card" style="margin-top: 48px; text-align: center;">
+      <h3 style="margin-bottom: 12px;">How to Use This Guide</h3>
+      <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto; line-height: 1.8; font-size: 0.95rem;">
+        Read the chapters in order for the full narrative, or jump to any era that interests you.
+        Each chapter includes <strong>interactive timelines</strong>, <strong>multi-perspective comparison tables</strong> showing how each faith views shared events,
+        <strong>historical maps and images</strong>, <strong>expandable deep-dives</strong>, and a <strong>quiz</strong> to test your understanding.
+        Your progress is saved automatically.
+      </p>
+    </div>
+
+  </div>
+
+  <script src="js/shared.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Clear premature progress from auto-marking
+      localStorage.removeItem('abrahamicProgress');
+      initIndexPage();
+      // Update leaf timeline dots for completed chapters
+      document.querySelectorAll('.leaf-node').forEach(node => {
+        const id = parseInt(node.dataset.chapter);
+        if (isChapterRead(id)) node.classList.add('completed');
+      });
+    });
+  </script>
+</body>
+</html>
